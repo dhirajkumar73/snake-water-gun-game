@@ -5,7 +5,7 @@ import random
 0 for gun
 '''
 computer = random.choice([-1,0,1])
-youstr = input("Enter your choice: ")
+youstr = input("Enter your choice: ").lower().strip()
 youDict = {"s":1, "w": -1, "g":0}
 reverseDict = {1:"Snake", -1: "Water", 0:"Gun"}
 
